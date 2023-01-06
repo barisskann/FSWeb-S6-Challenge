@@ -43,7 +43,7 @@ Bitmiş projeniz aşağıdaki tüm özelliklere sahip olmalıdır:
 
   **Notlar:**
 
-- Tarayıcı tarafından JavaScript kullanılarak uç noktadan elde edilen veriler, [msw](https://github.com/mswjs/msw). MSW'nin yaptığı her şeyi anlamanız şu an için gerekli değildir, yalnızca şimdilik axios'u `https://swapi.dev/api/people/` adresine istek göndermek için kullandığınızda gerekli verileri nasıl çekeceğinizi bilmeniz yeterlidir.
+- Tarayıcı tarafından JavaScript kullanılarak uç noktadan elde edilen veriler, [msw](https://github.com/mswjs/msw). MSW'nin yaptığı her şeyi anlamanız şu an için gerekli değildir, yalnızca şimdilik axios'u `   ` adresine istek göndermek için kullandığınızda gerekli verileri nasıl çekeceğinizi bilmeniz yeterlidir.
 - Uç noktayı HTTPie veya Postman kullanarak test ederseniz, MSW isteği engellemeyeceğinden farklı sonuçlar elde edersiniz.
 - Ek dosyalar oluşturabilirsiniz ancak **mevcut dosyaları veya klasörleri taşımayın veya ismini değiştirmeyin**.
 - Ekstra kitaplıklar kurmak dışında `package.json` dosyanızı değiştirmeyin.
