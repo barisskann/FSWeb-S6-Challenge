@@ -7,23 +7,21 @@ function ExpandleButton(params) {
     setClick(!click);
   };
   let total = (
-    <div>
-      <div>
-        <div>{item.gender}</div>
-        <div>{item.height}</div>
-        <div>{item.mass}</div>
-        <div>{item.birth_year}</div>
-        <div>{item.eye_color}</div>
-        <div>{item.hair_color}</div>
-        <div>{item.skin_color}</div>
-      </div>
-    </div>
+    <>
+      <div>{item.gender}</div>
+      <div>{item.height}</div>
+      <div>{item.mass}</div>
+      <div>{item.birth_year}</div>
+      <div>{item.eye_color}</div>
+      <div>{item.hair_color}</div>
+      <div>{item.skin_color}</div>
+    </>
   );
   return (
-    <div>
-      <div>
+    <div onClick={handleClick} className="list">
+      <div className="">
         {children}
-        <div>{click && total}</div>
+        <div className="list-item">{click && total}</div>
       </div>
       <div onClick={handleClick}>
         {click ? <AiOutlineUp /> : <AiOutlineDown />}
